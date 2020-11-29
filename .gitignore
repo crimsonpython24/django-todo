@@ -1,0 +1,9 @@
+venv
+node_modules
+build
+__pycache__
+node_modules/
+static/
+frontend/static/
+db.sqlite3
+package-lock.json

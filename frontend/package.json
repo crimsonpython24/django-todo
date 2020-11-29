@@ -1,0 +1,41 @@
+{
+  "name": "react-todo",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "react": "next",
+    "react-dom": "next",
+    "react-hook-form": "^6.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build_old": "webpack --mode production ./src/index.js --output ./static/frontend/main.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "webpack --mode development ./src/index.js --output ./static/frontend/main.js",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "react-scripts": "latest",
+    "style-loader": "^1.2.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
